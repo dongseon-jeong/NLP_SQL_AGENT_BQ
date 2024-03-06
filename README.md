@@ -31,11 +31,16 @@
 
 ## 4. gemma fine-tune
 ### 데이터셋
-b-mc2/sql-create-context [https://huggingface.co/datasets/b-mc2/sql-create-context]
+- b-mc2/sql-create-context [https://huggingface.co/datasets/b-mc2/sql-create-context]
 ![ex_screenshot](./img/img1.png)  
 
-context에 테이블 생성 쿼리로 테이블 스키마를 판단하고 question에 입력값으로 answer의 쿼리를 생성하도록 학습  
-gemma 모델은 한글을 지원하기 때문에 question은 openai api로 한글로 전환 후 학습 진행  
+  context에 테이블 생성 쿼리로 테이블 스키마를 판단하고 question에 입력값으로 answer의 쿼리를 생성하도록 학습  
+  gemma 모델은 한글을 지원하기 때문에 question은 openai api로 한글로 전환 후 학습 진행  
+
+- ai 허브 [https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=ty&dataSetSn=71351]
+
+  양질의 데이터이나 LLM 파인튠을 위한 전처리가 많이 필요해보임 > 컬럼명과 자연어의 매칭이 안됨
+  한국어 데이터로 번역이 필요없다 
 
 
 ### 파인 튠
