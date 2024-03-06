@@ -39,7 +39,7 @@
 
 - ai 허브 [https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=ty&dataSetSn=71351]
 
-  양질의 데이터이나 LLM 파인튠을 위한 전처리가 많이 필요해보임 > 컬럼명과 자연어의 매칭이 안됨
+  양질의 데이터이나 LLM 파인튠을 위한 전처리가 많이 필요해보임 > 컬럼명과 자연어의 매칭이 안됨  
   한국어 데이터로 번역이 필요없다 
 
 
